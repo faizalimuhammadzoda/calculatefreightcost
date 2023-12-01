@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,7 +57,7 @@
 <body style="background-color: darkslategrey;">
     <nav class="navbar navbar-expand-sm navbar-dark" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="javascript:void(0)"><img src="fht-logo_whiteontransparent.png" alt="FHT Logo" style="width: 50px;"></a>
+          <a class="navbar-brand" href="javascript:void(0)"><img th:src="@{/images/logo.png}" alt="FHT" style="width: 50px;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
